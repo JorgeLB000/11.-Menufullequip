@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.65"
+                        android:background="@color/red"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgCalculadora"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/baseline_calculate_black_48dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgCalculadora"
+                                android:layout_centerHorizontal="true"
+                                android:text="Calculadora"
+                                android:textSize="14sp" />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/yellow"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/ListaAmigos"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_group_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Lista de Amigos"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/ListaAmigos"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lime"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgChat"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_sms_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Chat"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/imgChat"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/green"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/Musica"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_music_video_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Musica"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/Musica"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/blue"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgGalería"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_perm_media_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Galería"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/imgGalería"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/darkblue"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/Mapas"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_room_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mapas"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/Mapas"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/darkviolet"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgTiempo"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_ac_unit_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tiempo"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/imgTiempo"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/violet"
+                        android:layout_weight="0.65"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/Ajustes"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/baseline_settings_black_48dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ajustes"
+                                android:textSize="14sp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/Ajustes"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
